@@ -1,0 +1,22 @@
+# Usando concatenação de Strings padrão
+horas = 10
+minutos = 26
+segundos = 18
+
+print (str(horas) + ":" + str(minutos) + ":" + str(segundos))
+
+# Usando "Format"
+
+horas = 10
+minutos = 26
+segundos = 18
+
+print (f"{horas}:{minutos}:{segundos}")
+
+# Segunda opção usando Format 'f'
+
+horas = 10
+minutos = 26
+segundos = 18
+
+print ('{}:{}:{}'.format(horas, minutos, segundos))
