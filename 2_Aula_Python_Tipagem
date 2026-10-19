@@ -1,0 +1,8 @@
+# Exemplo de tipagem dinâmica em Python
+# Váriavel 'x' inicialmente recebe um valor inteiro
+X = 10
+print ("Tipo de x:", type(X))
+
+# A mesma variável 'x agora recebe uma string
+X = "Olá, mundo!"
+print ("Tipo de X:", type(X))
