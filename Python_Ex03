@@ -1,0 +1,10 @@
+### Exemplo de código em Python
+# Definir variáveis
+nome = "Rony"
+idade = 36
+Altura = 1.70
+
+# Formatação usando f-strings
+
+saida_formatada = f"Nome: {nome}\nIdade: {idade}\nAltura: {Altura:.2f}m"
+print(saida_formatada)
