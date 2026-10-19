@@ -1,0 +1,27 @@
+# ==========================================
+# 1. Programação Procedural
+# ==========================================
+def fatorial_procedural(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fatorial_procedural(n - 1)
+
+# A execução fica fora da função
+print("Fatorial de 5 (procedural):", fatorial_procedural(5))
+
+
+# ==========================================
+# 2. Programação Orientada a Objetos (OOP)
+# ==========================================
+class Fatorial:
+    def calcular(self, n):
+        if n == 0:
+            return 1
+        else:
+            # Correção: usa 'self.calcular' para acessar o método da instância
+            return n * self.calcular(n - 1)
+
+# Instanciação da classe e execução fora da indentação anterior
+f = Fatorial()
+print("Fatorial de 5 (orientado a objetos):", f.calcular(5))
