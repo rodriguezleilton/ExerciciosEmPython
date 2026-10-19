@@ -1,0 +1,14 @@
+# Solicita ao usuário que insira três dados
+dados1 = input("Digite um número inteiro: ")
+dados2 = input("Digite um número de ponto flutuante: ")
+dados3 = input("Digite um valor Booleano (True ou False): ")
+
+# Conversões e armazenamento nas variáveis finais
+num_inteiro = int(dados1)
+num_float = float(dados2)
+valor_bool = dados3.strip().lower() == "true"
+
+# Impressão dos valores e de suas respectivas classes
+print("Número inteiro:", num_inteiro, "| Classe:", type(num_inteiro))
+print("Número de ponto flutuante:", num_float, "| Classe:", type(num_float))
+print("Valor Booleano:", valor_bool, "| Classe:", type(valor_bool))
